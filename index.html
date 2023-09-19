@@ -9,9 +9,51 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <!-- Title -->
     <title> | Fastrack</title>
+      <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <!-- Link CSS -->
     <link rel="stylesheet" href="./style.css">
+
+    <!-- Demo styles slider scroll bar -->
+  <style>
+    html,
+    body {
+      position: relative;
+      /* height:100vh */
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 82vh;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
 </head>
+<!-- Body -->
 <body>
     <!-- Main Container opening tag -->
     <div class="">
@@ -46,8 +88,8 @@
         </div>
     </div>
     <!---------------------------------------------- Navbaar For Md aur More------------------------------------------------------>
-    <div class="hidden md:inline-block w-full h-[20vh] bg-black">
-        <div class="w-full h-[10vh] flex items-center justify-between md:justify-evenly px-5 lg:gap-2 gap-5">
+     <div class="hidden md:inline-block w-full h-[18vh] bg-black pt-2">
+        <div class="w-full h-[9vh] flex items-center justify-between md:justify-evenly px-5 lg:gap-2 md:gap-1">
             <!-- Logo -->
             <div class="w-2/12 flex items-center justify-center cursor-pointer"><img class="lg:w-36 w-24 cursor-pointer" src="./fastrack_logo_white.svg" alt=""></div> 
             <!-- Search Baar -->
@@ -58,7 +100,7 @@
                 <i class="ri-mic-line bg-white text-2xl p-1 text-gray-500 cursor-pointer"></i>  
             </div>
             <!-- path -->
-            <div class="w-3/12 text-white flex items-center justify-evenly gap-8 ml-7 ">
+            <div class="w-3/12 text-white flex items-center justify-evenly gap-8 ml-6 ">
                 <div class="flex flex-col items-center justify-center cursor-pointer"> 
                     <i class="ri-contacts-line text-xl font-thin"></i>
                     <h3 class="text-xs uppercase tracking-wider">Login</h3>
@@ -79,7 +121,7 @@
 
         </div>
         <!-- Navbaar 2 -->
-        <div class="w-full h-[10vh] flex justify-center items-center tracking-wider text-white text-sm">               
+        <div class="w-full h-[6vh] flex justify-center items-center text-white text-sm pt-2">               
             <div class="hover:font-semibold px-3 cursor-pointer"><h3>WATCHES</h3></div>
             <div class="hover:font-semibold px-3 cursor-pointer"><h3>SMART & AUDIO</h3></div>
             <div class="hover:font-semibold px-3 cursor-pointer"><h3>EYEWEAR</h3></div>
@@ -88,187 +130,228 @@
             <div class="hover:font-semibold px-3 cursor-pointer"><h3>OFFERS & MORE</h3></div>
             <div class="hover:font-semibold px-3 cursor-pointer"><h3>MORE</h3></div>
         </div>
-    </div>
+    </div> 
     <!----------------------------------------------------- hero section --------------------------------------------------------->
-        <!-- Hero Section For Medium or above  -->
-    <div>
-        <div class=" hidden md:inline-block w-full h-[80vh] bg-cover object-center bg-center relative cursor-pointer" style="background-image: url(./maij.webp)">
-            <div class="w-[44vw] absolute left-16 top-16"><img src="./logo-beBoth.webp" alt=""></div>
-            <div class="w-full overflow-hidden absolute bottom-0">
-                <!-- X-axis boboth marquee -->
-                <div class="w-fit flex items-center justify-center border-y-2 cursor-text">
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                    <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
-                </div>
-            </div>    
-                <!-- Y-axis boboth marquee -->
-                <!-- Left -->
-                <div class="h-full overflow-hidden absolute">
-                    <div class="h-fit flex flex-col items-center justify-center border-x-2 w-12 z-10 overflow-hidden cursor-text bg-[#ED635F]">
-                        <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 -rotate-90 slide-text-up">#Be<span class="font-bold">Both</span></h3>
-                        <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 -rotate-90 slide-text-up">#Be<span class="font-bold">Both</span></h3>
-                        <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 -rotate-90 slide-text-up">#Be<span class="font-bold">Both</span></h3>
-                        <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 -rotate-90 slide-text-up">#Be<span class="font-bold">Both</span></h3>
-                        <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 -rotate-90 slide-text-up">#Be<span class="font-bold">Both</span></h3>
-                        <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 -rotate-90 slide-text-up">#Be<span class="font-bold">Both</span></h3>
-                        <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 -rotate-90 slide-text-up">#Be<span class="font-bold">Both</span></h3>
-                        <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 -rotate-90 slide-text-up">#Be<span class="font-bold">Both</span></h3>
-                        <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 -rotate-90 slide-text-up">#Be<span class="font-bold">Both</span></h3>
-                        <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 -rotate-90 slide-text-up">#Be<span class="font-bold">Both</span></h3>
-                        <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 -rotate-90 slide-text-up">#Be<span class="font-bold">Both</span></h3>
-                        <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 -rotate-90 slide-text-up">#Be<span class="font-bold">Both</span></h3>
-                        <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 -rotate-90 slide-text-up">#Be<span class="font-bold">Both</span></h3>
-                    </div>
-                </div>
-                <!-- Right -->
-                <div class="h-full overflow-hidden absolute right-0">
-                    <div class="h-fit flex flex-col items-center justify-center border-x-2 w-12 z-10 overflow-hidden cursor-text bg-[#EC4F74]">
-                        <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 rotate-90 slide-text-down">#Be<span class="font-bold">Both</span></h3>
-                        <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 rotate-90 slide-text-down">#Be<span class="font-bold">Both</span></h3>
-                        <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 rotate-90 slide-text-down">#Be<span class="font-bold">Both</span></h3>
-                        <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 rotate-90 slide-text-down">#Be<span class="font-bold">Both</span></h3>
-                        <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 rotate-90 slide-text-down">#Be<span class="font-bold">Both</span></h3>
-                        <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 rotate-90 slide-text-down">#Be<span class="font-bold">Both</span></h3>
-                        <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 rotate-90 slide-text-down">#Be<span class="font-bold">Both</span></h3>
-                        <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 rotate-90 slide-text-down">#Be<span class="font-bold">Both</span></h3>
-                        <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 rotate-90 slide-text-down">#Be<span class="font-bold">Both</span></h3>
-                        <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 rotate-90 slide-text-down">#Be<span class="font-bold">Both</span></h3>
-                        <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 rotate-90 slide-text-down">#Be<span class="font-bold">Both</span></h3>
-                        <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 rotate-90 slide-text-down">#Be<span class="font-bold">Both</span></h3>
-                        <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 rotate-90 slide-text-down">#Be<span class="font-bold">Both</span></h3>
-                    </div>
-                </div>
-        </div>
-            
-            <!-- Hero Section For smaller devices  -->
-        <div class="w-full h-[84vh] md:hidden object-cover bg-top bg-cover overflow-hidden relative " style="background-image: url(./FM_Beboth.webp)">
-                <!-- <div class="flex items-center justify-center w-16 pt-6 "><img class="w-[70%]" src="./logo-beBoth.webp" alt=""></div> -->
-                <div class="w-full overflow-hidden absolute bottom-0">
-                    <!-- X-axis boboth marquee -->
-                    <div class="w-fit flex items-center justify-center border-y-2 cursor-text">
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                        <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
-                    </div>
-                </div>    
-                    <!-- Y-axis boboth marquee -->
-                    <!-- Left -->
-                    <div class="h-full overflow-hidden absolute">
-                        <div class="h-fit flex flex-col items-center justify-center border-x-2 w-8 z-10 overflow-hidden cursor-text bg-[#EC4F74] ">
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <!-- Slider 1 -->
+          <div class="swiper-slide">
+                <div class=" hidden md:inline-block w-full h-[84vh] bg-cover object-center bg-center relative cursor-pointer" style="background-image: url(./maij.webp)">
+                    <div class="w-[44vw] absolute left-16 top-16"><img src="./logo-beBoth.webp" alt=""></div>
+                    <div class="w-full overflow-hidden absolute bottom-0">
+                        <!-- X-axis boboth marquee -->
+                        <div class="w-fit flex items-center justify-center border-y-2 cursor-text">
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
+                            <h3 class="font-bold text-white text-3xl px-3 py-1 beboth">#Be<span class="font-extrabold">Both</span></h3>
                         </div>
-                    </div>
-                    <!-- Right -->
-                    <div class="h-full overflow-hidden absolute right-0">
-                        <div class="h-fit flex flex-col items-center justify-center border-x-2 w-8 z-10 overflow-hidden cursor-text bg-[#EC4F74] ">
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
-                            <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
+                    </div>    
+                        <!-- Y-axis boboth marquee -->
+                        <!-- Left -->
+                        <div class="h-full overflow-hidden absolute">
+                            <div class="h-fit flex flex-col items-center justify-center border-x-2 w-12 z-10 overflow-hidden cursor-text bg-[#ED635F]">
+                                <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 -rotate-90 slide-text-up">#Be<span class="font-bold">Both</span></h3>
+                                <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 -rotate-90 slide-text-up">#Be<span class="font-bold">Both</span></h3>
+                                <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 -rotate-90 slide-text-up">#Be<span class="font-bold">Both</span></h3>
+                                <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 -rotate-90 slide-text-up">#Be<span class="font-bold">Both</span></h3>
+                                <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 -rotate-90 slide-text-up">#Be<span class="font-bold">Both</span></h3>
+                                <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 -rotate-90 slide-text-up">#Be<span class="font-bold">Both</span></h3>
+                                <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 -rotate-90 slide-text-up">#Be<span class="font-bold">Both</span></h3>
+                                <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 -rotate-90 slide-text-up">#Be<span class="font-bold">Both</span></h3>
+                                <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 -rotate-90 slide-text-up">#Be<span class="font-bold">Both</span></h3>
+                                <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 -rotate-90 slide-text-up">#Be<span class="font-bold">Both</span></h3>
+                                <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 -rotate-90 slide-text-up">#Be<span class="font-bold">Both</span></h3>
+                                <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 -rotate-90 slide-text-up">#Be<span class="font-bold">Both</span></h3>
+                                <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 -rotate-90 slide-text-up">#Be<span class="font-bold">Both</span></h3>
+                            </div>
                         </div>
-                    </div>
+                        <!-- Right -->
+                        <div class="h-full overflow-hidden absolute right-0">
+                            <div class="h-fit flex flex-col items-center justify-center border-x-2 w-12 z-10 overflow-hidden cursor-text bg-[#EC4F74]">
+                                <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 rotate-90 slide-text-down">#Be<span class="font-bold">Both</span></h3>
+                                <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 rotate-90 slide-text-down">#Be<span class="font-bold">Both</span></h3>
+                                <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 rotate-90 slide-text-down">#Be<span class="font-bold">Both</span></h3>
+                                <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 rotate-90 slide-text-down">#Be<span class="font-bold">Both</span></h3>
+                                <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 rotate-90 slide-text-down">#Be<span class="font-bold">Both</span></h3>
+                                <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 rotate-90 slide-text-down">#Be<span class="font-bold">Both</span></h3>
+                                <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 rotate-90 slide-text-down">#Be<span class="font-bold">Both</span></h3>
+                                <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 rotate-90 slide-text-down">#Be<span class="font-bold">Both</span></h3>
+                                <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 rotate-90 slide-text-down">#Be<span class="font-bold">Both</span></h3>
+                                <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 rotate-90 slide-text-down">#Be<span class="font-bold">Both</span></h3>
+                                <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 rotate-90 slide-text-down">#Be<span class="font-bold">Both</span></h3>
+                                <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 rotate-90 slide-text-down">#Be<span class="font-bold">Both</span></h3>
+                                <h3 class="font-samibold text-white text-center text-3xl px-2 py-12 rotate-90 slide-text-down">#Be<span class="font-bold">Both</span></h3>
+                            </div>
+                        </div>
+                </div>
+                    <!-- Hero Section For smaller devices  -->
+                <div class="w-full h-[84vh] md:hidden object-cover bg-top bg-cover overflow-hidden relative " style="background-image: url(./FM_Beboth.webp)">
+                        <!-- <div class="w-1/12 items-center justify-center bg-transparent inline-flex"><img class=" inline-block" src="./logo-beBoth.webp" alt=""></div> -->
+                        <div class="w-full overflow-hidden absolute bottom-0">
+                            <!-- X-axis boboth marquee -->
+                            <div class="w-fit flex items-center justify-center border-y-2 cursor-text">
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                                <h3 class="font-bold text-white text-xl px-2 py-1 bebothm">#Be<span class="font-extrabold">Both</span></h3>
+                            </div>
+                        </div>    
+                            <!-- Y-axis boboth marquee -->
+                            <!-- Left -->
+                            <div class="h-full overflow-hidden absolute">
+                                <div class="h-fit flex flex-col items-center justify-center border-x-2 w-8 z-10 overflow-hidden cursor-text bg-[#EC4F74] ">
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 -rotate-90 slide-text-upm">#Be<span class="font-bold">Both</span></h3>
+                                </div>
+                            </div>
+                            <!-- Right -->
+                            <div class="h-full overflow-hidden absolute right-0">
+                                <div class="h-fit flex flex-col items-center justify-center border-x-2 w-8 z-10 overflow-hidden cursor-text bg-[#EC4F74] ">
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
+                                    <h3 class="font-samibold text-white text-center text-xl px-1 py-8 rotate-90 slide-text-downm">#Be<span class="font-bold">Both</span></h3>
+                                </div>
+                            </div>
+        
+                </div>
+          </div>
+          <!-- Slider-2 -->
+          <div class="swiper-slide">Slide 2
 
+          </div>
+          <!-- Slider-3 -->
+          <div class="swiper-slide">Slide 3</div>
+          <!-- Slider-4 -->
+          <div class="swiper-slide">Slide 4</div>
+          <!-- Slider-5 -->
+          <div class="swiper-slide">Slide 5</div>
+          <!-- Slider-6 -->
+          <div class="swiper-slide">Slide 6</div>
         </div>
-    </div>
-
+        <div class="swiper-pagination"></div>
+      </div>
         <!-- main container closing tag -->
-        </div>
+    </div>
  <!-- scrollSmoother -->
  <script src="https://assets.codepen.io/16327/ScrollSmoother.min.js"></script>
 <!-- scrollTrigger -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <!-- Gsap cdn -->
  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<!-- Slider Crouser javascript -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      direction: "vertical",
+      slidesPerView: 1,
+      spaceBetween: 30,
+      mousewheel: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
  <!-- Script Gsap -->
  <script src="./marquee.js"></script>
 </body>

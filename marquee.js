@@ -535,3 +535,4 @@ function verticalLoop(items, config) {
   onChange && onChange(items[curIndex], curIndex);
 	return tl;
 }
+
